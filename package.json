@@ -1,0 +1,16 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/src/index.js"
+  },
+  "dependencies": {
+    "@enitoni/gears": "^3.0.4",
+    "@enitoni/gears-discordjs": "^2.0.1",
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "typescript": "^3.7.4"
+  }
+}
